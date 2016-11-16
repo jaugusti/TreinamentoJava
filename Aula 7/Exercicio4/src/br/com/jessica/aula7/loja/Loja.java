@@ -2,9 +2,9 @@ package br.com.jessica.aula7.loja;
 
 import java.util.ArrayList;
 
-import br.com.jessi.aula7.loja.funcionario.Administrativo;
-import br.com.jessi.aula7.loja.funcionario.Funcionario;
-import br.com.jessi.aula7.loja.funcionario.Vendedor;
+import br.com.jessica.aula7.loja.funcionario.Administrativo;
+import br.com.jessica.aula7.loja.funcionario.Funcionario;
+import br.com.jessica.aula7.loja.funcionario.Vendedor;
 
 public class Loja {
 	private String nomeLoja;

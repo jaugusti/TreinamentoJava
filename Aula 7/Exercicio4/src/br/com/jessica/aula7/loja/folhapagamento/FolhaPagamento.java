@@ -1,7 +1,7 @@
 package br.com.jessica.aula7.loja.folhapagamento;
 
-import br.com.jessi.aula7.loja.funcionario.*;
 import br.com.jessica.aula7.loja.*;
+import br.com.jessica.aula7.loja.funcionario.*;
 
 public class FolhaPagamento {
 	
@@ -12,13 +12,13 @@ public class FolhaPagamento {
 		funcionario = new Vendedor("Carlos", "2322985452", 1000f, 0.5f);
 		loja1.addfuncionario(funcionario);
 		
-		funcionario = new Administrativo("Maria", "2819236778", 1500f, 0.01f);
+		funcionario = new Administrativo("Maria", "2819236778", 1500f, 100f);
 		loja1.addfuncionario(funcionario);
 		
 		funcionario = new Vendedor("Joao", "2321986452", 1000f, 0.5f);
 		loja1.addfuncionario(funcionario);
 		
-		funcionario = new Administrativo("Paulo", "2890923077", 1500f, 0.01f);
+		funcionario = new Administrativo("Paulo", "2890923077", 1500f, 100f);
 		loja1.addfuncionario(funcionario);
 		
 		addVenda(loja1);
