@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+button.btn.btn-default.opcao{
+	background-color: #FFD700;
+	margin:10px;
+	width: 12%;
+    white-space: normal;
+}
+
+button.btn.btn-default.cadastro{
+	background-color: #00FF00;
+	width: 100%;
+	margin:10px;
+	text-align: center;
+}
+body{
+	background-color: F5F5F5;
+}
+table td{
+	text-align: center;
+}
+
+div label{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+table th{
+	text-align: center;
+}
+
+table tr td.descricao{
+	background-color: #FA8072;
+}
+
+div.titulo{
+	margin-left: 20px;
+}
+
+div table.table-striped{
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+ }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/css/default.css">
+</head>
+<body>
+<nav id="menu" class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categoria<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="javascript:abrirTelaListarCategoria();">Listar Categorias</a></li>
+            <li><a href="javascript:abrirTelaCadastroCategoria();">Cadastrar Categoria</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filme<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="javascript:abrirTelaListarFilmes();">Listar Filmes</a></li>
+            <li><a href="javascript:abrirTelaCadastroFilme();">Cadastrar Filme</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Endereços<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="javascript:abrirTelaListarEnderecos();">Listar Endereços</a></li>
+            <li><a href="javascript:abrirTelaCadastroEndereco();">Cadastrar Endereço</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Midias<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="javascript:abrirTelaListarMidias();">Listar Midias</a></li>
+            <li><a href="javascript:abrirTelaCadastroMidia();">Cadastrar Midia</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tipo Midia<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="javascript:abrirTelaListarTiposMidia();">Listar Tipos de Midias</a></li>
+            <li><a href="javascript:abrirTelaCadastroTipoMidia();">Cadastrar Tipo de Midia</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locacação<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="javascript:">Listar Locações</a></li>
+            <li><a href="javascript:abrirTelaCadastroLocacao();">Cadastrar Locação</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuário<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="javascript:abrirTelaListarClientes();">Listar Clientes</a></li>
+            <li><a href="javascript:abrirTelaListarFuncionarios();">Listar Funcionários</a></li>
+            <li><a href="javascript:abrirTelaCadastroUsuario();">Cadastrar Usuários</a></li>
+          </ul>
+        </li>
+      </ul>
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="conteudo-principal">
+</div>
+<script src="resources/js/jquery.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<script src="resources/js/categoria.js"></script>
+<script src="resources/js/endereco.js"></script>
+<script src="resources/js/filme.js"></script>
+<script src="resources/js/usuario.js"></script>
+<script src="resources/js/tipomidia.cadastro.js"></script>
+<script src="resources/js/locacao.cadastro.js"></script>
+<script src="resources/js/midia.js"></script>
+<script src="resources/js/default.js"></script>
+</body>
+</html>

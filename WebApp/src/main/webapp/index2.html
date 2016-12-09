@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/css/default.css">
+</head>
+<body>
+<div>
+	<button id="cadastrar-categoria"
+			type="button"
+			class="btn btn-default opcao"
+			onclick="abrirTelaCadastroCategoria();">Cadastrar Categoria</button>
+	<button id="listar-categorias" class="btn btn-default opcao"
+			type="button"
+			onclick="abrirTelaListarCategoria();">Listar Categorias</button>
+</div>
+
+<div>
+	<button id="cadastrar-endereco"
+			type="button"
+			class="btn btn-default opcao"
+			onclick="abrirTelaCadastroEndereco();">Cadastrar Endereço</button>
+	<button id="listar-enderecos" class="btn btn-default opcao"
+			type="button"
+			onclick="abrirTelaListarEnderecos();">Listar Endereço</button>
+</div>
+
+<div>
+	<button id="cadastrar-categoria"
+			type="button"
+			class="btn btn-default opcao"
+			onclick="abrirTelaCadastroFilme();">Cadastrar Filme</button>
+	<button id="listar-filmes" class="btn btn-default opcao"
+			type="button"
+			class="btn btn-default"
+			onclick="abrirTelaListarFilmes();">Listar Filmes</button>
+</div>
+
+<div id="conteudo-principal"></div>
+
+<script src="resources/js/jquery.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<script src="resources/js/categoria.js"></script>
+<script src="resources/js/endereco.js"></script>
+<script src="resources/js/filme.js"></script>
+<script src="resources/js/default.js"></script>
+</body>
+</html>
